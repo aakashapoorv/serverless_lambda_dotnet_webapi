@@ -21,7 +21,7 @@ namespace CsharpHandlers.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return $"valus is {id}.";
         }
 
         // POST api/values
